@@ -1,0 +1,562 @@
+body{  
+    display: grid; 
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+#homepage{
+    position: relative;
+}
+
+.homeContainer{
+    display: block;
+    background-color: antiquewhite;
+}
+
+#navbar {
+    position: fixed;
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+}
+
+#navbar ul{
+    display: -webkit-box;
+}
+
+#logo {
+    margin-right: 350px;
+}
+
+#navbar ul li { 
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 12px;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#menu1{
+    color: #36B37E;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    width: 100px;
+    border-color: #36B37E;
+    margin-left: 30px;
+}
+
+#menu2{
+    color: #FFFFFF;
+    background-color:#36B37E;
+    border-radius: 30px;
+    width: 100px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.homebannercontainer{
+    height: 400px;
+    width: 1350px;
+    margin-left: 120px;
+    margin-right: 80px;
+    margin-top: 180px;
+    line-height: 20px;
+}
+
+#box{
+    margin-top: -100px;
+    margin-right: 60px;
+}
+
+#div1{
+    margin-top: 120px;
+    position: relative;
+}
+
+
+#div1 h2{
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 30px 0px 0px 30px;
+}
+
+.contentsubtext{
+    background-color: #FFFFFF;
+    display: block;
+    position: absolute;
+    left: 51%;
+    bottom: 12%;
+    width: 280px;
+    height: 260px;
+    padding: 20px;
+    margin: 26px 0px 0px;
+    z-index: 1;
+    box-shadow: 0 4px 24px 0 rgb(42 42 42 /25%);
+    font-size: unset;
+}
+
+.quotesOne{
+    margin-bottom: 37px;
+}
+
+.contentsubtext p{
+    position: relative;
+    padding: 7px 0 0 ;
+    line-height: 21px;
+    color: #4a4a4a;
+    margin-top: -40px;
+    font-family: sans-serif;
+    height: 194.8;
+    width: 240;
+}
+
+
+.text{
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.dropdown{
+    color: #FFFFFF;
+    background-color:#36B37E;
+    border-radius: 30px;
+    width: 280px;
+    margin-left: 30px;
+    transition: all 0.3s linear;
+}
+
+.howitsworkheadertext{
+    text-align-last: center;
+    text-transform: capitalize;
+}
+
+.stylesheet{
+    line-height: 1.5;
+    margin-top: 24px;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.active{
+    margin: 0px 35px;
+    padding: 10px 0px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #36B37E;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.active a{
+    text-decoration: none;
+}
+
+#nonprofits{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #FFF;
+}
+
+.desktoponly{
+    display: block;
+    padding-top: 65px;
+    width: 1550px;
+}
+
+.nonprofitsimg{
+    list-style: none;
+    min-height: 130px;
+    display: flex;
+    width: 1550px;
+}
+.nonprofitsimg li{
+    width: 25%
+}
+
+.nonprofitsimg li img{
+    text-align: center;
+}
+
+.desktoponly ul{
+    max-block-size: fit-content;
+}
+.desktoponly ul li{
+    width: 243.63;
+    height: 130;
+    margin-right: 235px;
+}
+
+.nonprofitsdisc {
+    height: 79px;
+    padding: 40px 0 25px;
+    margin: 0%;
+    list-style: none;
+    display: -webkit-inline-box;
+}
+
+.hr{   
+    border-color:#333;
+    border-width: 3px;
+    max-width: 65px;
+    top: -6px;
+    left: 0;
+    width: 100%;
+}
+
+.nonprofitsBtnsection{
+    text-align: center;
+    padding: 40px 20px 20px;
+    font-weight: bold;
+    width: 1550px;
+}
+.nonprofitsBtnsection h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: sans-serif;
+    margin: 0 0 15px;
+    line-height: 23px;
+}
+
+.nonprofitsBtnsection button{
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #36B37E;
+    color: #FFF;
+    border-radius: 25.26px;
+
+}
+
+.section{
+    margin-left: 200px;
+    margin-right: 70px;
+}
+.donor{
+    padding-right: 70px;
+    display: flex;
+    width: 1400px;
+}
+
+.text1{
+    width: 44%;
+    height: 530px;
+    padding-right: 70px;
+}
+.text1 h2{
+    margin: 15px 0;
+    font-size: 70px;
+    color: #000;
+    font-weight: bold;
+}
+.text1 p{
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.5;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.text2{
+    width: 44%;
+    height: 530px;
+    padding-right: 70px;
+}
+.text2 h2{
+    margin: 15px 0;
+    font-size: 70px;
+    color: #000;
+    font-weight: bold;
+}
+.text2 p{
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.5;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.text3{
+    width: 44%;
+    height: 530px;
+    padding-right: 70px;
+}
+.text3 h2{
+    margin: 15px 0;
+    font-size: 70px;
+    color: #000;
+    font-weight: bold;
+}
+.text3 p{
+    font-size: 18px;
+    color: #4a4a4a;
+    line-height: 1.5;
+    opacity: 0.5;
+    font-weight: normal;
+}
+.imageFlows1{
+    padding-right: 70px;
+}
+.imageFlows2{
+    padding-right: 70px;
+}
+.imageFlows3{
+    padding-right: 70px;
+}
+
+.organisation{
+    padding-right: 70px;
+    display: inline-flex;
+    width: 1400px;
+}
+
+.healthcare{
+    display: inline-flex;
+    padding-right: 70px;
+    width: 1400px;
+}
+
+
+.section2{
+    padding: 60px 7%;
+    background-color: #36B37E;
+    height: 386.4;
+    margin-top: 70px;
+}
+
+.secure-left h2{
+    font-weight: 700;
+    color: #FFF;
+    font-size: 65px;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: center;
+    max-width: 647px;
+    margin: 0 auto 20px auto;
+
+}
+.secure-left p{
+    color: #FFF;
+    text-align: center;
+    line-height: 1.8;
+    letter-spacing: normal;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 20px;
+}
+
+#footersection{
+    padding: 35px 7% 15px 7%;
+    background: #FFF;
+    min-height: 65px;
+    display: flex;
+    width: 100%;
+}
+
+.fnewlogo{
+    height: 40px;
+    margin: auto auto auto 0;
+
+}
+.flink{
+    margin: auto 0 auto auto;
+
+}
+.footerlinks{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+.footerlinks  li{
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.footerlinks li a{
+    font-weight: bold;
+    color: #36B37E;
+}
+
+.copyright p{
+    margin: auto auto 10px 105px;
+}
+
+@media (max-width: 1100px){
+    #logo{
+        margin-right: auto;
+    }
+    .nav-wrapper li a{
+        font-size: small;
+    }
+    .homebannercontainer {
+        margin-top: 15%;
+    }
+    #box{
+        margin-right: 30%;
+        height: 95%;
+    }
+    .contentsubtext{
+        margin-top: 30%;
+        margin-left: -30%;
+    }
+    #div1 h2{
+        font-size: 35px;
+    }
+    .btnLinks{
+        margin-left: -3%;
+    }
+}
+
+
+@media (max-width: 500px){
+    #logo{
+        margin-right: auto;
+    }
+    #navbar ul li{
+        display: none;
+    }
+    .homebannercontainer{
+        display: flex;
+    }
+    
+    .contentsubtext{
+        display: none;
+    }
+    #div1{
+        display: flex;
+    }
+    
+    .btnLinks{
+        display: none;
+    }
+    .howitsworkheadertext{
+        display: flex;
+        margin-left: 12%;
+    }
+    .stylesheet{
+        display: flex;
+    }
+    .desktoponly ul{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    .nonprofitsBtnsection h5{
+        display: flex;
+        margin-left: 10%;
+    }
+    #sumitNPOEmailbtn{
+        display: block;
+        margin-left: 12%;
+    }
+    .section{
+        margin-left: 30px;
+        margin-right: 50px;
+        padding-right: 80px;
+    }
+    
+    .donor{
+        display: grid;
+    }
+    .donor .text1{
+        display: inline;
+        margin-top: 20%;
+        padding-right: 200px;
+    }
+    .donor .text1 h2{
+        font-size: xx-large;
+    }
+    .donor .imageFlows1{
+        margin-top: -15%;
+    }
+    .organisation{
+        display: inline;
+    }
+    
+    .organisation .text2{
+        padding-right: 200px;
+    }
+    .organisation .text2 h2{
+        font-size: xx-large;
+    }
+    .healthcare{
+        display: inline;
+    }
+    .healthcare .text3{
+        padding-right: 200px;
+        margin-top: 22%;
+    }
+    .healthcare .text3 h2{
+        font-size: xx-large;
+    }
+    .healthcare .imageFlows3{
+        margin-top: -78%;
+    }
+    .section2{
+        margin-top: 22%;
+        height: fit-content;
+    }
+    .section2 .row h2{
+        font-size: xx-large;
+        text-align: start;
+        margin-right: 60%;
+        padding-right: 45px;
+        margin-top: -20px;
+    }
+    .section2 .row p{
+        float: inline-start;
+        margin-right: 75%;
+        margin-left: -90px;
+        line-height: 20px;
+    }
+    #footersection{
+        display: inline;
+    }
+    #footersection .fnewlogo{
+        margin-top: 2%;
+    }
+    .flink .footerlinks{
+        margin-top: -6%;
+    }
+    .footerlinks li a{
+        font-size: x-small;
+        margin-left: -70%;
+        padding-right: 50px;
+    }
+    .push{
+        margin-right: 7px;
+    }
+    .pull{
+        margin-left: -40px;
+    }
+    
+    .copyright{
+        margin-top: 2%;
+        margin-left: 5%;
+    }
+    .fnewlogo{
+        margin-left: 5%;
+    }
